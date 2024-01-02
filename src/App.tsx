@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import Contents from './components/Contents';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline text-red-600">
-      Simple React Typescript Tailwind Sample
-      crtmnfexkj.hl .crgew
-    </h1>
+    <div>
+      <Header />
+      <Contents />
+    </div>
   );
 }
 
